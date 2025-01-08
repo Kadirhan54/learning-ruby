@@ -1,1 +1,11 @@
-<h1> This is Navbar</h1>
+<nav class="navbar">
+    <div class="navbar-brand">
+      <%= link_to "LearningRuby", root_path, class: "brand-link" %>
+    </div>
+    <ul class="navbar-links">
+      <li><%= link_to "Home", root_path, class: "nav-link" %></li>
+      <li><%= link_to "About", about_path, class: "nav-link" %></li>
+      <li><%= link_to "Services", services_path, class: "nav-link" %></li>
+      <li><%= link_to "Contact", contact_path, class: "nav-link" %></li> 
+    </ul>
+  </nav>
